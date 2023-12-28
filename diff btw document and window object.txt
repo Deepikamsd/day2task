@@ -1,0 +1,13 @@
+ 
+Feature
+   Object Document 
+     Window object
+Definition
+Represents the HTML document and its structure.Represents the browser window or tab.
+Scope
+Limited to the loaded HTML document.Encompasses the entire browser window.
+Hierarchy
+
+Nested within the window object.Serves as the root object for JavaScript, hosting the document object and more.
+Use Cases
+DOM manipulation, accessing HTML elements.Browser-related tasks, navigation control, global event handling.Example‘javascript const headerElement = document.getElementById('header');’‘javascript window.location.href = 'https://example.com';’
